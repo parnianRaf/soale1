@@ -1,4 +1,44 @@
 ﻿<Properties StartupConfiguration="{4D00ED68-7F69-4D2F-BCC1-F1AEC9E014A7}|https">
+  <MonoDevelop.Ide.ItemProperties.soalYEk PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="soalYEk/Models/Person.cs">
+    <Files>
+      <File FileName="soalYEk/Models/Person.cs" Line="20" Column="25" />
+      <File FileName="soalYEk/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="soalYEk/Controllers/AccountController.cs" Line="26" Column="10" />
+      <File FileName="soalYEk/DAl/PersonRepository.cs" Line="19" Column="52" />
+      <File FileName="soalYEk/DataBase/DataBase.cs" Line="10" Column="4" />
+      <File FileName="soalYEk/Program.cs" Line="29" Column="1" />
+      <File FileName="soalYEk/Views/_ViewImports.cshtml" />
+      <File FileName="soalYEk/Views/Shared/_Layout.cshtml" Line="15" Column="13" />
+      <File FileName="soalYEk/soalYEk.csproj" />
+      <File FileName="soalYEk/Views/Account/Register.cshtml" Line="9" Column="32" />
+      <File FileName="soalYEk/Views/Account/List.cshtml" Line="17" Column="14" />
+      <File FileName="soalYEk/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="soalYEk/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="soalYEk/Views/Shared/Error.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="soalYEk" expanded="True" selected="True">
+            <Node name="soalYEk" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAl" expanded="True" />
+              <Node name="DataBase" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.soalYEk FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

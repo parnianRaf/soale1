@@ -6,11 +6,23 @@
 @model Person
 
 <form method="post">
+    <div asp-validation-summary="All"></div>
+
+
+
     <label asp-for="Phone"></label>
     <input asp-for="Phone" type="text" />
 
 
+
     <label asp-for="Email"></label>
     <input asp-for="Email" type="email" />
+
+
+
     <button type="submit" asp-controller="Account" asp-action="Register">ثبت</button>
 </form>
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+}

@@ -13,12 +13,17 @@ namespace soalYEk.Controllers
 			return View();
 		}
 		[HttpPost]
-        public void Register(Person person)
+        public IActionResult Register(Person person)
         {
 			personRepository.register(person);
+            return RedirectToAction("List");
             
         }
-
+        public IActionResult List()
+        {
+            List<Person> people=personRepository.ListPerson();
+            return View(people);
+        }
     }
 }
 

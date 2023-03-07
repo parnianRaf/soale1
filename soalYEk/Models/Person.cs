@@ -6,12 +6,20 @@ namespace soalYEk.Models
 	public class Person
 	{
 		public int Id { get; set; }
-		[Required(ErrorMessage ="it shouldn't be empty")]
+
+
+
+		[Required(ErrorMessage ="{0} shouldn't be empty")]
 		[Display(Name ="ایمیل")]
 		public string Email { get; set; }
-		[StringLength(11,ErrorMessage ="it should'nt exceed 11 characters.")]
-		[Display(Name ="شماره تماس")]
-        public string Phone { get; set; }
+
+
+
+        [Required(ErrorMessage = "{0} shouldn't be empty")]
+        //[StringLength(11,ErrorMessage ="")]
+        [Display(Name ="شماره تماس")]
+		[Range(9,11,ErrorMessage = "PhoneNumber should include 11 characters.")]
+        public string? Phone { get; set; }
 
     }
 }
